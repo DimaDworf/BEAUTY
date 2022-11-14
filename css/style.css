@@ -112,7 +112,6 @@ a {
 }
 
 .logo__link {
-    display: flex;
     align-items: center;
     gap: var(--gap);
 }
