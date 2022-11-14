@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAUTY</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar-secondary">
+            <div class="container">
+                <ol class="navbar-secondary__list">
+                    <li class="navbar-secondary__item"><a class="navbar-secondary__link" href="">Доставка</a></li>
+                    <li class="navbar-secondary__item"><a class="navbar-secondary__link" href="">Оплата</a></li>
+                    <li class="navbar-secondary__item"><a class="navbar-secondary__link" href="">Отзывы</a></li>
+                    <li class="navbar-secondary__item"><a class="navbar-secondary__link" href="">Вопрос - ответ</a></li>
+                    <li class="navbar-secondary__item"><a class="navbar-secondary__link" href="">Контакты</a></li>
+                </ol>
+            </div>
+        </nav>
+
+        <div class="navbar-info">
+            <div class="navbar-info__container container">
+                <div class="logo">
+                    <a class="logo__link" href=""></a>
+                    <img class="logo__image" src="image/logo.svg" alt="BEAUTY">
+                    <strong class="logo__title">BEAUTY</strong>
+                </div>
+                <div class="feedback">
+                    <a class="feedback__phone btn-primary" href="tel:+88121234567">8 (812) 123-45-67</a>
+                    <button class="feedback__button" type="button">Обратный звонок</button>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar-primary">
+            <div class="container">
+                <ol class="navbar-primary__list">
+                    <li class="navbar-primary__item"><a class="navbar-primary__link" href="">Парихмахерская</a></li>
+                    <li class="navbar-primary__item"><a class="navbar-primary__link" href="">Барбершоп</a></li>
+                    <li class="navbar-primary__item"><a class="navbar-primary__link" href="">Маникюр</a></li>
+                    <li class="navbar-primary__item"><a class="navbar-primary__link" href="">Педикюр</a></li>
+                    <li class="navbar-primary__item"><a class="navbar-primary__link" href="">Массаж</a></li>
+                    <li class="navbar-primary__item"><a class="navbar-primary__link" href="">Мебель</a></li>
+                </ol>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Супер кресло</h1>
+                    <div class="hero__description">Текст акции всегда отражает суть, а не просто
+                        болтовню, поэтому внимательнее</div>
+                    <div class="hero__actions">
+                        <a class="hero__button btn btn--secondary" href="">Подробней</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offers">
+            <div class="container">
+                <h2 class="offers__title">Специальные предложения</h2>
+                <div class="offers__content">
+                    <article class="offer-item">
+                        <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="offer-item__picture">
+                            <img class="offer-item__image" src="image/Chair.png" alt="">
+                        </div>
+                        <div class="offer-item__price">9 900 UAH</div>
+                        <div class="offer-item__action">
+                            <a class="offer-item__bottun btn btn--sm" href="">Купить</a>
+                        </div>
+                    </article>
+                    <article class="offer-item">
+                        <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="offer-item__picture">
+                            <img class="offer-item__image" src="image/Chair.png" alt="">
+                        </div>
+                        <div class="offer-item__price">9 900 UAH</div>
+                        <div class="offer-item__action">
+                            <a class="offer-item__bottun btn btn--sm" href="">Купить</a>
+                        </div>
+                    </article>
+                    <article class="offer-item">
+                        <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="offer-item__picture">
+                            <img class="offer-item__image" src="image/Chair.png" alt="">
+                        </div>
+                        <div class="offer-item__price">9 900 UAH</div>
+                        <div class="offer-item__action">
+                            <a class="offer-item__bottun btn btn--sm" href="">Купить</a>
+                        </div>
+                    </article>
+                    <article class="offer-item">
+                        <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="offer-item__picture">
+                            <img class="offer-item__image" src="image/Chair.png" alt="">
+                        </div>
+                        <div class="offer-item__price">9 900 UAH</div>
+                        <div class="offer-item__action">
+                            <a class="offer-item__bottun btn btn--sm" href="">Купить</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="submit">
+            <div class="container">
+                <div class="submit__content">
+                    <div class="subscribe">
+                        <div class="subscribe__content">
+                            <h3 class="subscribe__title">Получайте бонусы и подарки</h3>
+                            <div class="subscribe__description">
+                                Каждый месяц разыгрываем
+                                10 000 рублей для наших клиентов</div>
+                            <form class="subscribe__form" action="url" method="get">
+                                <label class="subscribe__label visually-hidden" for="email">Ваша почта для обратной
+                                    связи</label>
+                                <input class="subscribe__input" id="email" type="email" placeholder="Введите Email">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="our-shops">
+                        <div class="our-shops__content">
+                            <h3 class="our-shops__title">Заходите к нам</h3>
+                            <div class="our-shops__description">Более 300 магазинов
+                                по всей Украние</div>
+                            <div class="our-shops__action">
+                                <a class="our-shops__button btn" href="">Карта магазинов</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brands">
+            <div class="container">
+                <h2 class="brands__title visually-hidden">Some brands</h2>
+            </div>
+            <div class="brands__content">
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+                <a class="brand-item" href="">
+                    <img class="brand-item__image" src="image/image.png" alt="brand">
+                </a>
+            </div>
+        </section>
+        <section class="recently">
+            <div class="container">
+                <h2 class="recently__title">Вы недавно смотрели</h2>
+                <div class="recently__content">
+                    <article class="recently-item">
+                        <h3 class="recently-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="recently-item__picture">
+                            <img class="recently-item__image" src="image/Chair.png" alt="">
+                        </div>
+                        <div class="recently-item__price">9 900 UAH</div>
+                        <div class="recently-item__action">
+                            <a class="recently-item__bottun btn btn--sm" href="">Купить</a>
+                        </div>
+                    </article>
+                    <article class="recently-item">
+                        <h3 class="recently-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="recently-item__picture">
+                            <img class="recently-item__image" src="image/Chair.png" alt="">
+                        </div>
+                        <div class="recently-item__price">9 900 UAH</div>
+                        <div class="recently-item__action">
+                            <a class="recently-item__bottun btn btn--sm" href="">Купить</a>
+                        </div>
+                    </article>
+                    <article class="recently-item">
+                        <h3 class="recently-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="recently-item__picture">
+                            <img class="recently-item__image" src="image/Chair.png" alt="">
+                        </div>
+                        <div class="recently-item__price">9 900 UAH</div>
+                        <div class="recently-item__action">
+                            <a class="recently-item__bottun btn btn--sm" href="">Купить</a>
+                        </div>
+                    </article>
+                    <article class="recently-item">
+                        <h3 class="recently-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+                        <div class="recently-item__picture">
+                            <img class="recently-item__image" src="image/Chair.png" alt="">
+                        </div>
+                        <div class="recently-item__price">9 900 UAH</div>
+                        <div class="recently-item__action">
+                            <a class="recently-item__bottun btn btn--sm" href="">Купить</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="popular">
+            <section class="popular__first">
+                <div class="popular__content">
+                    <div class="popular__border">
+                        <h3 class="popular__title">Популярные
+                            категории</h3>
+                    </div>
+                    <div class="info"></div>
+                    <ul class="popular__list">
+                        <li class="popular__item"><a class="popular__link" href="">Насадки</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Инструменты</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Гель-лаки</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Дизайн</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Наращивание</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Оборудование</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="popular__second">
+                <div class="popular__content">
+                    <div class="popular__border">
+                        <h3 class="popular__title">Популярные
+                            категории</h3>
+                    </div>
+                    <div class="info"></div>
+                    <ul class="popular__list">
+                        <li class="popular__item"><a class="popular__link" href="">Насадки</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Инструменты</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Гель-лаки</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Дизайн</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Наращивание</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Оборудование</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="popular__third">
+                <div class="popular__content">
+                    <div class="popular__border">
+                        <h3 class="popular__title">Популярные
+                            категории</h3>
+                    </div>
+                    <div class="info"></div>
+                    <ul class="popular__list">
+                        <li class="popular__item"><a class="popular__link" href="">Насадки</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Инструменты</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Гель-лаки</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Дизайн</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Наращивание</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Оборудование</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="popular__fourth">
+                <div class="popular__content">
+                    <div class="popular__border">
+                        <h3 class="popular__title">Популярные
+                            категории</h3>
+                    </div>
+                    <div class="info"></div>
+                    <ul class="popular__list">
+                        <li class="popular__item"><a class="popular__link" href="">Насадки</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Инструменты</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Гель-лаки</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Дизайн</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Наращивание</a></li>
+                        <li class="popular__item"><a class="popular__link" href="">Оборудование</a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+        <div class="line"></div>
+        <section class="social">
+            <div>
+                <img class="social__image youtube" src="image/youtube.png" alt="">
+            </div>
+            <div>
+                <img class="social__image vk" src="image/vk.png" alt="">
+            </div>
+            <div>
+                <img class="social__image facebook" src="image/facebook.png" alt="">
+            </div>
+            <div>
+                <img class="social__image instagram" src="image/instagram.png" alt="">
+            </div>
+            <div class="social__feedback">
+                <a class="feedback__phone btn-primary" href="tel:+88121234567">8 (812) 123-45-67</a>
+                <button class="feedback__button" type="button">Обратный звонок</button>
+            </div>
+        </section>
+        <section class="botton">
+            <div class="botton__left">
+                Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты
+            </div>
+            <div class="botton__right">Политика конфиденциальности</div>
+        </section>
+    </footer>
+</body>
+
+</html>
