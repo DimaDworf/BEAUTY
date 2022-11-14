@@ -13,6 +13,7 @@
     --gap-xl: 40px;
     --font-family: "Roboto", sans-serif;
     --font-size: 16px;
+    --margin-min: 25px;
     --margin-bottom-min: 30px;
     --margin-top-min: 59px;
 }
@@ -425,7 +426,7 @@ a {
 .popular__list {
     display: flex;
     list-style: none;
-    margin-top: 25px;
+    margin-top: var(--margin-min);
     justify-content: flex-end;
     flex-wrap: wrap;
     flex-direction: column;
@@ -445,7 +446,7 @@ a {
     background-color: var(--color-light);
     width: 225px;
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: var(--margin-min);
     padding: 1px;
 }
 
