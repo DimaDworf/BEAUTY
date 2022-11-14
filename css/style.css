@@ -16,6 +16,7 @@
     --margin-min: 25px;
     --margin-bottom-min: 30px;
     --margin-top-min: 59px;
+    --margin-right: 160px;
 }
 
 *,
@@ -396,19 +397,19 @@ a {
 }
 
 .popular__first {
-    margin-right: 160px;
+    margin-right: var(--margin-right);
     margin-left: 200px;
     margin-top: var(--margin-top-min);
 
 }
 
 .popular__second {
-    margin-right: 160px;
+    margin-right: var(--margin-right);
     margin-top: var(--margin-top-min);
 }
 
 .popular__third {
-    margin-right: 160px;
+    margin-right: var(--margin-right);
     margin-top: var(--margin-top-min);
 }
 
