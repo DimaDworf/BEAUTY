@@ -80,7 +80,7 @@ a {
 }
 
 .navbar-secondary {
-    min-height: 50px;
+    min-height: 48px;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -92,7 +92,7 @@ a {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 0 10px;
+    gap: 0 12px;
 
 }
 
@@ -144,6 +144,7 @@ a {
     border: 2px solid var(--color-accent);
     border-radius: 40px;
     min-width: 170px;
+    margin-top: 4px;
     height: 40px;
 }
 
@@ -210,7 +211,7 @@ a {
     font-size: 1.5rem;
     line-height: 28px;
     margin: 0;
-    margin-bottom: var(--gap-lg);
+    margin-bottom: 35px;
 }
 
 .offers__content {
@@ -230,7 +231,8 @@ a {
 
 .offer-item__title {
     font-size: 0.875rem;
-    line-height: 20px;
+    font-weight: 400;
+    line-height: 18px;
     text-align: center;
     color: var(--color-gray);
 }
@@ -245,6 +247,10 @@ a {
     line-height: 15px;
     letter-spacing: 0.05em;
     color: var(--color-black);
+}
+
+.offer-item__bottun {
+    padding-bottom: 7px;
 }
 
 .visually-hidden {
@@ -267,14 +273,14 @@ a {
 
 .submit__content {
     display: flex;
-    gap: var(--gap);
+    gap: var(--gap-lg);
 }
 
 .subscribe {
     background-color: var(--color-accent);
     background-image: url(../image/envelope.svg);
     background-repeat: no-repeat;
-    background-position: calc(100% - 45px) 46%;
+    background-position: calc(100% - 50px) 48%;
     flex: 1;
     padding: 35px var(--gap-xl);
 }
@@ -282,28 +288,33 @@ a {
 .subscribe__content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .subscribe__title {
     font-size: 18px;
+    font-weight: 700;
     line-height: 15px;
-    max-width: 315px;
+    max-width: 250px;
+    margin-top: 2px;
+    margin-bottom: 24px;
 }
 
 .subscribe__description {
     font-size: 14px;
-    line-height: 17px;
-    max-width: 213.4px;
+    font-weight: 400;
+    line-height: 19px;
+    width: 231px;
+    height: 41px;
 }
 
 .subscribe__input {
+    margin-top: 25px;
     padding: 0.25em 23px;
     display: block;
     width: 49%;
     border-radius: 30px;
     border: none;
-    height: 31px;
+    height: 33px;
 }
 
 .subscribe__input::placeholder {
@@ -321,8 +332,11 @@ a {
 }
 
 .our-shops__title {
+    font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+    padding-bottom: 7px;
+
 }
 
 .our-shops__content {
@@ -334,7 +348,10 @@ a {
 
 .our-shops__description {
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
+    width: 154px;
+    height: 43px;
+    font-weight: 400;
     line-height: 21px;
 }
 
@@ -343,7 +360,10 @@ a {
 }
 
 .our-shops__button {
-    margin-top: 20px;
+    font-size: 14px;
+    margin-top: 16px;
+    height: 38px;
+    letter-spacing: 0;
 }
 
 .brands {
@@ -352,7 +372,7 @@ a {
 
 .brands__content {
     display: grid;
-    grid-template-columns: repeat(4, 0.146fr);
+    grid-template-columns: repeat(4, 0.1464fr);
     gap: 1px;
     justify-content: center;
     grid-template-rows: 31% 32% 32%;
@@ -367,7 +387,7 @@ a {
 .recently__title {
     font-size: 24px;
     line-height: 2px;
-    margin: 80px 0 38px 0;
+    margin: 0 0 50px 0;
     color: var(--color-black);
 }
 
@@ -376,10 +396,10 @@ a {
     padding: 25px;
     display: flex;
     flex-direction: column;
-    gap: var(--gap);
+    gap: 15px;
     align-items: center;
     flex: 1;
-    margin-bottom: 81px;
+    margin-bottom: 80px;
 }
 
 .recently__content {
@@ -389,7 +409,8 @@ a {
 
 .recently-item__title {
     font-size: 0.875rem;
-    line-height: 21px;
+    font-weight: 400;
+    line-height: 20px;
     text-align: center;
     color: var(--color-gray);
 }
@@ -401,38 +422,45 @@ a {
 .recently-item__price {
     font-weight: 500;
     font-size: 21px;
+    margin-bottom: 2px;
     line-height: 18px;
+    letter-spacing: 0.05em;
     color: var(--color-black);
+}
+
+.recently-item__bottun {
+    padding-top: 8px;
 }
 
 .popular {
     display: flex;
-    gap: 60px;
+    gap: 32px;
     justify-content: flex-start;
 }
 
 .popular__first {
-    margin-left: 21%;
-    margin-top: var(--margin-top-min);
+    margin-left: 20.7%;
+    margin-top: 63px;
 
 }
 
 .popular__second {
-    margin-top: var(--margin-top-min);
+    margin-top: 63px;
 }
 
 .popular__third {
-    margin-top: var(--margin-top-min);
+    margin-top: 63px;
 }
 
 .popular__fourth {
     margin-right: 21%;
-    margin-top: var(--margin-top-min);
+    margin-top: 63px;
 }
 
 .popular__title {
-    margin-bottom: var(--margin-bottom-min);
+    line-height: 22px;
     font-size: 16px;
+    font-weight: 500;
 }
 
 .popular__list {
@@ -449,17 +477,45 @@ a {
     padding-bottom: 10px;
     height: 28px;
     color: var(--color-gray-light);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
 }
 
 .footer {
     background-color: var(--color-white);
 }
 
-.info {
+.info__first {
     background-color: var(--color-light);
-    width: 225px;
-    margin-top: 30px;
-    margin-bottom: var(--margin-min);
+    width: 255px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    padding: 1px;
+}
+
+
+.info__second {
+    background-color: var(--color-light);
+    width: 253px;
+    margin-top: 25px;
+    margin-bottom: 26px;
+    padding: 1px;
+}
+
+.info__third {
+    background-color: var(--color-light);
+    width: 252px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    padding: 1px;
+}
+
+.info__fourth {
+    background-color: var(--color-light);
+    width: 255px;
+    margin-top: 25px;
+    margin-bottom: 27px;
     padding: 1px;
 }
 
@@ -470,7 +526,7 @@ a {
 .line {
     background-color: var(--color-light);
     width: 100%;
-    margin-top: 2.3%;
+    margin-top: 2.5%;
     margin-bottom: 1px;
     padding: 1px;
 }
@@ -484,7 +540,7 @@ a {
 .social {
     display: flex;
     margin-left: 10.3%;
-    margin-top: 37px;
+    margin-top: 35px;
 }
 
 .youtube {
@@ -504,7 +560,7 @@ a {
     display: flex;
     gap: var(--gap-xl);
     align-items: center;
-    margin-left: 31.5%;
+    margin-left: 31.4%;
     margin-bottom: 43px;
 }
 
@@ -516,7 +572,7 @@ a {
 .botton__left {
     font-size: 12px;
     line-height: 14px;
-    margin: 25px 340px 25px 21%;
+    margin: 22px 346px 25px 20.7%;
     color: var(--color-gray-light);
 
 }
