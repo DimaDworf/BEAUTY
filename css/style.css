@@ -507,7 +507,7 @@ a {
 }
 
 .popular__first {
-    margin-left: 20.7%;
+    margin-left: 20.8%;
     margin-top: 63px;
 
 }
@@ -534,7 +534,6 @@ a {
 .popular__list {
     display: flex;
     list-style: none;
-    margin-top: var(--margin-min);
     justify-content: flex-end;
     flex-wrap: wrap;
     flex-direction: column;
@@ -556,9 +555,9 @@ a {
 
 .info__first {
     background-color: var(--color-light);
-    width: 255px;
+    width: 254px;
     margin-top: 26px;
-    margin-bottom: 26px;
+    margin-bottom: 25px;
     padding: 1px;
 }
 
